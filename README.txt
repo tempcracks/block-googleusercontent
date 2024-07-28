@@ -6,17 +6,17 @@ A simple config file for pf firewall for block googleusercontent.com
 
 If you're have encountered a problem as:
 
-[googleusercontent.com](https://www.phpbb.com/community/viewtopic.php?t=2627241)
+![googleusercontent.com](https://www.phpbb.com/community/viewtopic.php?t=2627241)
 
 also
 
-[Blocking access to all sites "bc.googleusercontent.com"](https://www.reddit.com/r/privacytoolsIO/comments/jwglv1/blocking_access_to_all_sites/)
+![Blocking access to all sites "bc.googleusercontent.com"](https://www.reddit.com/r/privacytoolsIO/comments/jwglv1/blocking_access_to_all_sites/)
 
 block-googleusercontent is a file configuration for pf firewall
 
 ## Using
 
-```bash
+```sh
 pfctl -e
 cp pf.conf /etc/pf.conf
 pfctl -nf /etc/pf.conf
@@ -26,6 +26,6 @@ pfctl -nf /etc/pf.conf
 
 STRONG: make owner,group  file root,wheel
 
-```bash
+```sh
 sudo chown root:wheel pf.conf
 ```
